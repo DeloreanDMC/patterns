@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PaypalPaymentService {
   pay(amount: number) {
-    return 'Paid via Paypal. Amount='+ amount;
+    return 'Paid via PayPal. Amount=' + amount;
   }
 }
